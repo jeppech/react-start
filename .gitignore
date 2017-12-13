@@ -1,0 +1,9 @@
+.idea/*
+.vagrant/*
+.svn/*
+.vscode/*
+dist/*
+!**/.gitkeep
+node_modules/*
+bower_components/*
+vendor/*

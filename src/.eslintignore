@@ -1,0 +1,7 @@
+.idea/*
+.vagrant/*
+.svn/*
+dist/*
+node_modules/*
+bower_components/*
+vendor/*
