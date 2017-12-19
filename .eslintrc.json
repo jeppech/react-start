@@ -21,6 +21,7 @@
         "constructor-super": "warn",
         "valid-typeof": "warn",
         "no-extra-semi": "error",
+        "no-console": "off",
         "react/prop-types": "off" //prevent React prop validation
     },
     "extends": [
