@@ -1,10 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { createStore } from 'redux';
+import todoApp from './reducers';
+import Root from './components/Root';
 
-import 'bulma';
-import './app.scss';
+let store = createStore(todoApp);
 
-import HelloMessage from './HelloMessage';
-
-var mountNode = document.getElementById("root");
-ReactDOM.render(<HelloMessage name="Andrés" what="React"/>, mountNode);
+render(
+	<Root store={store} />,
+	document.getElementById('root')
+);
